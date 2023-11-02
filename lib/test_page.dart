@@ -10,6 +10,7 @@ class TestPage extends StatelessWidget {
       body: Column(
         children: [],
       ),
+      drawer: Drawer(),
     );
   }
 }
