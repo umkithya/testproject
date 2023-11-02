@@ -6,7 +6,10 @@ class TestPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("test page screen11")),
+      appBar: AppBar(title: Text("AppBar")),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
